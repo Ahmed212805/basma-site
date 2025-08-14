@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basma – Software Company</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+    />
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Reem+Kufi:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top" aria-label="Main">
+      <div class="container py-2">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+          <!-- <span class="brand-badge"></span> -->
+          <img src="img/logo3.png" alt="" width="60px" srcset="" />
+          Basma
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-expanded="false"
+          aria-label="تبديل القائمة"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav me-lg-3 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">آلية العمل</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stack">التقنيات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">الأعمال</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#pricing">الأسعار</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">الأسئلة</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#blog">المدونة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#careers">وظائف</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل</a>
+            </li>
+          </ul>
+          <div class="ms-lg-auto d-flex gap-2">
+            <span class="tag"
+              ><span
+                class="rounded-circle"
+                style="width: 8px; height: 8px; background: var(--brand)"
+              ></span>
+              متاحون لمشروع جديد</span
+            >
+            <!-- <a class="btn lang-pill" href="#">English</a> -->
+            <button class="language-btn">English</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero py-5">
+      <div class="glow"></div>
+      <div class="container py-4">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h1 class="mb-3">نبني حلول برمجية آمنة وذكية تدفع عملك للأمام</h1>
+            <p class="mb-4">
+              تشمل خدماتنا تصميم ونشر تطبيقات الجوال المعتمدة من متاجر جوجل وأبل، وضمان توافقها مع مختلف أنظمة التشغيل. نساعد عملاءنا على زيادة حضورهم الرقمي، الوصول لجمهور أوسع، وتحقيق أرباح أعلى من خلال استراتيجيات تسويق فعّالة.
+            </p>
+            <div class="d-flex gap-2">
+              <a href="#contact" class="btn btn-brand btn-lg">ابدأ مشروعك</a>
+              <a href="#portfolio" class="btn btn-ghost btn-lg">شاهد أعمالنا</a>
+            </div>
+            <!-- <div class="d-flex gap-4 mt-4 text-white-50 small">
+              <div>
+                وقت الإطلاق <strong class="text-white">4–8 أسابيع</strong>
+              </div>
+              <div>SLA دعم <strong class="text-white">24/7</strong></div>
+              <div>حماية <strong class="text-white">OWASP</strong></div>
+            </div> -->
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="ratio ratio-16x9 bg-dark rounded-4 border border-dark-subtle overflow-hidden"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop"
+                class="w-100 h-100 object-fit-cover"
+                alt="Tech cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="2000">
+            <h2 class="sec-title mb-3">من نحن</h2>
+            <p class="muted">
+              شركة برمجيات تركز على بناء منتجات رقمية موثوقة وقابلة للتوسّع.
+              نعمل بمنهجية رشيقة Agile، ونلتزم بأفضل ممارسات الأمن والجودة عبر
+              اختبارات تلقائية ومراجعات شفافة.
+            </p>
+            <ul class="list-unstyled mt-3 text-secondary">
+              <li>✓ عقود مرنة (ثابت السعر / وقت-ومواد / فريق مخصص)</li>
+              <li>✓ توثيق كامل وتسليم الكود وCI/CD</li>
+              <li>✓ دعم وصيانة بعد الإطلاق</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="2300">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="stat text-center">
+                  <h3>+120</h3>
+                  <p>مشروع مُنجز</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat text-center">
+                  <h3>98%</h3>
+                  <p>رضا العملاء</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat text-center">
+                  <h3>24/7</h3>
+                  <p>دعم فني</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat text-center">
+                  <h3>+10</h3>
+                  <p>سنوات خبرة</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container" data-aos="fade-up" data-aos-duration="2300">
+        <div class="text-center mb-5">
+          <h2 class="sec-title">الخدمات</h2>
+          <p class="text-secondary">
+            حلول من الفكرة للإطلاق—مصممة خصيصًا لاحتياج مشروعك.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card-hover h-100 p-3 rounded-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="icon-badge"
+                  ><svg width="22" height="22" viewBox="0 0 24 24">
+                    <path
+                      d="M4 6h16M4 12h16M4 18h10"
+                      stroke="#0f241a"
+                      stroke-width="2"
+                    /></svg
+                ></span>
+                <h5 class="m-0 fw-bold">مواقع وتطبيقات ويب</h5>
+              </div>
+              <p class="text-secondary">
+                تطبيقات أسرع، آمنة، قابلة للتوسّع باستخدام أحدث أطر العمل.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card-hover h-100 p-3 rounded-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="icon-badge"
+                  ><svg width="22" height="22" viewBox="0 0 24 24">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="8"
+                      stroke="#0f241a"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M12 4v16M4 12h16"
+                      stroke="#0f241a"
+                      stroke-width="2"
+                    /></svg
+                ></span>
+                <h5 class="m-0 fw-bold">تطبيقات موبايل</h5>
+              </div>
+              <p class="text-secondary">
+                iOS و Android بتجربة استخدام متقنة وأداء عالي.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card-hover h-100 p-3 rounded-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="icon-badge"
+                  ><svg width="22" height="22" viewBox="0 0 24 24">
+                    <path d="M3 12h18" stroke="#0f241a" stroke-width="2" />
+                    <path d="M12 3v18" stroke="#0f241a" stroke-width="2" /></svg
+                ></span>
+                <h5 class="m-0 fw-bold">تكاملات وسحابة</h5>
+              </div>
+              <p class="text-secondary">
+                تكامل عبر واجهات API، بنى تحتية سحابية، وأتمتة عمليات.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card-hover h-100 p-3 rounded-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="icon-badge"
+                  ><svg width="22" height="22" viewBox="0 0 24 24">
+                    <path
+                      d="M6 4h12v16H6z"
+                      stroke="#0f241a"
+                      stroke-width="2"
+                    /></svg
+                ></span>
+                <h5 class="m-0 fw-bold">لوحات تحكم وأنظمة أعمال</h5>
+              </div>
+              <p class="text-secondary">
+                CRM/ERP، تقارير فورية، وأذونات أمان دقيقة.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card-hover h-100 p-3 rounded-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="icon-badge"
+                  ><svg width="22" height="22" viewBox="0 0 24 24">
+                    <path
+                      d="M4 12l4 4 12-12"
+                      stroke="#0f241a"
+                      stroke-width="2"
+                    /></svg
+                ></span>
+                <h5 class="m-0 fw-bold">اختبارات وأمن</h5>
+              </div>
+              <p class="text-secondary">
+                اختبارات تلقائية، مراجعات كود، وتخفيف ثغرات OWASP.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card-hover h-100 p-3 rounded-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <span class="icon-badge"
+                  ><svg width="22" height="22" viewBox="0 0 24 24">
+                    <path
+                      d="M12 2v20M2 12h20"
+                      stroke="#0f241a"
+                      stroke-width="2"
+                    /></svg
+                ></span>
+                <h5 class="m-0 fw-bold">ذكاء اصطناعي وتحليلات</h5>
+              </div>
+              <p class="text-secondary">
+                نماذج تنبؤية، توصية، ولوحات مؤشرات ذكية.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS / TIMELINE -->
+
+    <section
+      id="process"
+      class="section"
+      style="background: #fff"
+      data-aos="fade-left"
+      data-aos-duration="2300"
+    >
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <h2 class="sec-title mb-3">آلية العمل</h2>
+            <p class="text-secondary">
+              نسير بخطوات واضحة من الاكتشاف إلى الإطلاق، مع تواصل أسبوعي وشفافية
+              كاملة في الجداول والتكاليف.
+            </p>
+            <a href="#contact" class="btn btn-brand">اطلب عرضًا تفصيليًا</a>
+          </div>
+          <div class="col-lg-7">
+            <div class="timeline ps-lg-4">
+              <div class="item mb-4">
+                <h6 class="fw-bold mb-1">1) اكتشاف وتحليل احتياج</h6>
+                <p class="text-secondary m-0">
+                  ورش عمل، تحديد MVP، ونطاق العمل.
+                </p>
+              </div>
+              <div class="item mb-4">
+                <h6 class="fw-bold mb-1">2) التصميم والتجربة</h6>
+                <p class="text-secondary m-0">
+                  واجهات UX/UI أولية، نماذج تفاعلية.
+                </p>
+              </div>
+              <div class="item mb-4">
+                <h6 class="fw-bold mb-1">3) التطوير والاختبارات</h6>
+                <p class="text-secondary m-0">
+                  سباقات أسبوعية، اختبارات وحدات وتكامل.
+                </p>
+              </div>
+              <!-- <div class="item mb-4">
+                <h6 class="fw-bold mb-1">4) الإطلاق وCI/CD</h6>
+                <p class="text-secondary m-0">
+                  بيئة إنتاج، مراقبة، وتتبّع مؤشرات.
+                </p>
+              </div> -->
+              <div class="item">
+                <h6 class="fw-bold mb-1">4) الصيانة والنمو</h6>
+                <p class="text-secondary m-0">
+                  Roadmap، تحسين الأداء، وميزات لاحقة.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="stack" class="section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="sec-title">التقنيات</h2>
+          <p class="text-secondary">نختار ما يناسب مشروعك من هذه المجموعة</p>
+        </div>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS/Bootstrap</span>
+          <span class="tag">JavaScript/TypeScript</span>
+          <span class="tag">React/Vue</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Python/Django/FastAPI</span>
+          <span class="tag">PHP/Laravel</span>
+          <span class="tag">.NET</span>
+          <span class="tag">PostgreSQL/MySQL</span>
+          <!-- <span class="tag">MongoDB/Redis</span> -->
+          <!-- <span class="tag">Docker/K8s</span> -->
+          <span class="tag">AWS/Azure</span>
+          <!-- <span class="tag">CI/CD</span> -->
+          <span class="tag">AI/ML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO / CASE STUDIES -->
+    <section id=" portfolio" class="section" style="background: #fff">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="sec-title">أعمال مختارة</h2>
+          <p class="text-secondary">عيّنات مختصرة من مشاريعنا</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <a class="card-hover d-block rounded-4 overflow-hidden" href="#">
+              <img src="img/reservation.png" class="w-100" alt="Project A" />
+              <div class="p-3 bg-white">
+                <h6 class="fw-bold mb-1">نظام حجوزات</h6>
+                <p class="text-secondary mb-0">
+                  لوحة تحكم + تطبيق موبايل متكامل
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="card-hover d-block rounded-4 overflow-hidden" href="#">
+              <img src="img/shop.png" class="w-100" alt="Project B" />
+              <div class="p-3 bg-white">
+                <h6 class="fw-bold mb-1">متجر إلكتروني</h6>
+                <p class="text-secondary mb-0">
+                  بوابات دفع، شحن، وفوترة متكررة
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="card-hover d-block rounded-4 overflow-hidden" href="#">
+              <img src="img/statistics.png" class="w-100" alt="Project C" />
+              <div class="p-3 bg-white">
+                <h6 class="fw-bold mb-1">لوحة تحليلات</h6>
+                <p class="text-secondary mb-0">تقارير لحظية ونماذج تنبؤية</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <!-- <section class="section">
+  <div class="container">
+    <div class="text-center mb-4"><h2 class="sec-title">ماذا قال عملاؤنا</h2></div>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="price">
+          <p class="mb-2">“التزم الفريق بالمواعيد وجودة التسليم. لوحة التحكم صنعت فارقًا حقيقيًا في مراقبة أعمالنا.”</p>
+          <div class="d-flex align-items-center gap-2 mt-2">
+            <img src="https://i.pravatar.cc/80?img=12" class="rounded-circle" width="42" height="42" alt="c1">
+            <div><strong>شركة الأفق</strong><div class="text-secondary small">قطاع الخدمات</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="price">
+          <p class="mb-2">“تطبيق الموبايل مستقر وأنيق، والدعم سريع جدًا. شكرًا لتعاونكم.”</p>
+          <div class="d-flex align-items-center gap-2 mt-2">
+            <img src="https://i.pravatar.cc/80?img=24" class="rounded-circle" width="42" height="42" alt="c2">
+            <div><strong>متجر سمارت</strong><div class="text-secondary small">تجارة إلكترونية</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+    <!-- PRICING / ENGAGEMENT -->
+    <!-- <section id="pricing" class="section" style="background:#fff">
+  <div class="container">
+    <div class="text-center mb-5"><h2 class="sec-title">خيارات التعاقد</h2><p class="text-secondary">اختر النموذج الذي يناسب مشروعك وميزانيتك</p></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="price h-100">
+          <span class="badge badge-brand mb-2">ثابت السعر</span>
+          <h5 class="fw-bold">باقة MVP</h5>
+          <div class="display-6 fw-bold mb-2" style="color:#0e1815">ابتداءً من $2,900</div>
+          <ul class="text-secondary mb-4">
+            <li>نطاق محدد + جداول زمنية واضحة</li>
+            <li>تصميم + تطوير + اختبار</li>
+            <li>دعم 30 يومًا بعد الإطلاق</li>
+          </ul>
+          <a href="#contact" class="btn btn-brand w-100">اطلب عرضًا</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="price h-100 border-2" style="border-color:var(--brand)">
+          <span class="badge badge-brand mb-2">وقت ومواد</span>
+          <h5 class="fw-bold">فريق مرن</h5>
+          <div class="display-6 fw-bold mb-2" style="color:#0e1815">$22–$45 /ساعة</div>
+          <ul class="text-secondary mb-4">
+            <li>سباقات أسبوعية وتقارير ساعات</li>
+            <li>أولوية لتسليم الميزات</li>
+            <li>قابلية توسيع الفريق</li>
+          </ul>
+          <a href="#contact" class="btn btn-brand w-100">ابدأ الآن</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="price h-100">
+          <span class="badge badge-brand mb-2">فريق مخصص</span>
+          <h5 class="fw-bold">اشتراك شهري</h5>
+          <div class="display-6 fw-bold mb-2" style="color:#0e1815">حسب التخصص</div>
+          <ul class="text-secondary mb-4">
+            <li>مطورون + مصمم + QA بدوام جزئي/كامل</li>
+            <li>SLA ودعم مستمر</li>
+            <li>أهداف شهرية واضحة</li>
+          </ul>
+          <a href="#contact" class="btn btn-brand w-100">احجز استشارة</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+    <!-- BLOG TEASERS -->
+    <!-- <section id="blog" class="section">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2 class="sec-title m-0">المدونة</h2>
+      <a class="text-success" href="#">كل المقالات →</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <a class="card-hover d-block rounded-4 overflow-hidden" href="#">
+          <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?q=80&w=1200&auto=format&fit=crop" class="w-100" alt="post1">
+          <div class="p-3 bg-white"><h6 class="fw-bold mb-1">كيفية اختيار تقنية الواجهة الأمامية</h6><p class="text-secondary mb-0">React أم Vue؟ معايير عملية لاتخاذ القرار</p></div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <a class="card-hover d-block rounded-4 overflow-hidden" href="#">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" class="w-100" alt="post2">
+          <div class="p-3 bg-white"><h6 class="fw-bold mb-1">أمن التطبيقات: خطوات أساسية</h6><p class="text-secondary mb-0">OWASP Top 10 وكيف نطبقها</p></div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <a class="card-hover d-block rounded-4 overflow-hidden" href="#">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" class="w-100" alt="post3">
+          <div class="p-3 bg-white"><h6 class="fw-bold mb-1">لماذا CI/CD يختصر وقت الإطلاق؟</h6><p class="text-secondary mb-0">أنابيب نشر تلقائية بلا ألم</p></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section> -->
+    <section id="team" class="section text-center">
+      <div class="container">
+        <h2 class="sec-title mb-5">فريقنا</h2>
+        <p class="muted mb-5">
+          نحن فريق شغوف بابتكار الحلول الرقمية التي تلبي احتياجات عملائنا.
+          يجمعنا مزيج من الخبرة التقنية والإبداع، مما يتيح لنا تنفيذ المشاريع
+          بجودة عالية وضمن المواعيد المحددة.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card-hover p-4">
+              <div style="text-align: center">
+                <img
+                  src="img/CEO.enc"
+                  alt="Ahmed Al-Rawi"
+                  style="
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                  "
+                />
+                <h3 class="team-name">أحمد الراوي</h3>
+                <p class="team-role">المدير التنفيذي</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREERS -->
+    <!-- <section id="careers" class="section" style="background:#fff">
+  <div class="container">
+    <div class="text-center mb-4"><h2 class="sec-title">انضم إلينا</h2><p class="text-secondary">نبحث عن المواهب</p></div>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-4"><div class="price"><h6 class="fw-bold">Front-end Developer</h6><p class="text-secondary mb-2">React/Bootstrap · خبرة 2–4 سنوات</p><a href="#contact" class="btn btn-sm btn-brand">قدّم الآن</a></div></div>
+      <div class="col-md-6 col-lg-4"><div class="price"><h6 class="fw-bold">Back-end Developer</h6><p class="text-secondary mb-2">Node/Nest أو Laravel · 3–5 سنوات</p><a href="#contact" class="btn btn-sm btn-brand">قدّم الآن</a></div></div>
+      <div class="col-md-6 col-lg-4"><div class="price"><h6 class="fw-bold">QA Engineer</h6><p class="text-secondary mb-2">اختبارات تلقائية · 2+ سنة</p><a href="#contact" class="btn btn-sm btn-brand">قدّم الآن</a></div></div>
+    </div>
+  </div>
+</section> -->
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <h2 class="sec-title mb-3">الأسئلة الشائعة</h2>
+            <p class="text-secondary">هنا إجابات لأكثر ما يُسأل عنه العملاء.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="accordion" id="faqAcc">
+              <!-- 1 -->
+
+
+<!-- 2 -->
+ <div class="accordion-item">
+  <h2 class="accordion-header" id="q1">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1">
+     ماهي الخدمات التي يقدمها مركز بصمة للتقنية والبرمجة?
+    </button>
+  </h2>
+  <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+تصميم تطبيقات الجوال، المنصات الرقمية، برامج الويب، التسويق الرقمي، تصميم المواقع والمتاجر الإلكترونية، خدمات الدعم الفني، وغيرها    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q2">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">
+      ماهي الفائدة من الخدمات التي يقدمها مركز بصمة للتقنية والبرمجة?
+    </button>
+  </h2>
+  <div id="a2" class="accordion-collapse collapse " data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+يستطيع من خلالها صاحب المنشاة أن يحصل على المزيد من العملاء، والوصول إلى جمهور واسع من العملاء، ويصبح لصاحب المنشاة هوية تعكس نشاطه من خلال محرك البحث عبر الأنترنت، وبالتالي زيادة الأرباح من خلال الترويج عبر الأنترنت    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q3">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">
+      هل تطبيقات الجوال يمكن تحميلها على جميع أنواع الأجهزة?
+    </button>
+  </h2>
+  <div id="a3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+نعم تطبيقات الجوال التي نقوم بتصميمها يمكن تحميلها عن طريق المتجر او ابل، ويمكن تحميلها على جميع أنواع اجهزة الجوالات    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q4">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4">
+      ماهي تكلفة الخدمات التي يقدمها مركز بصمة للتقنية والبرمجة?
+    </button>
+  </h2>
+  <div id="a4" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+تختلف قيمة الخدمة حسب نوع الخدمة المطلوبة وحجم العمل، والتقنيات المستخدمة، والوقت اللازم لتنفيذه، والخدمات الإضافية  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q5">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5">
+      ما هي خطوات العمل من بداية المشروع حتى التسليم؟
+    </button>
+  </h2>
+  <div id="a5" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+      نبدأ بفهم احتياجات العميل بالتفصيل، ثم نضع خطة عمل واضحة، يليها التطوير والاختبار، وأخيرًا التسليم مع تدريب ودعم كامل.
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q6">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a6">
+      كم يستغرق تنفيذ المشروع؟
+    </button>
+  </h2>
+  <div id="a6" class="accordion-collapse collapse " data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+      يعتمد وقت التنفيذ على حجم المشروع وتعقيد متطلباته، لكننا نلتزم دائمًا بإنجاز العمل ضمن الجدول الزمني المتفق عليه.
+    </div>
+  </div>
+</div>
+<!-- 3 -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q7">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a7">
+      هل توفرون دعم فني بعد الإطلاق؟
+    </button>
+  </h2>
+  <div id="a7" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+      نعم، نقدم خطط دعم وصيانة لضمان استقرار  الأنظمة لمدة متفقة عليها  وسرعة حل أي مشكلات قد تطرأ.    </div>
+  </div>
+</div>
+
+<!-- 4 -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q8">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a8">
+      كيف تضمنون أمان الأنظمة والتطبيقات؟
+    </button>
+  </h2>
+  <div id="a8" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+      نلتزم بأفضل ممارسات الأمان العالمية (OWASP) ونطبق أحدث تقنيات الحماية لضمان أمن بياناتك.
+    </div>
+  </div>
+</div>
+
+<!-- 5 -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q9">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a9">
+      هل يمكن ربط النظام بخدمات أو أنظمة أخرى؟
+    </button>
+  </h2>
+  <div id="a9" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+      نعم، يمكننا دمج أنظمتك مع خدمات سحابية أو أنظمة خارجية عبر واجهات برمجية (APIs).
+    </div>
+  </div>
+</div>
+
+<!-- 6 -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="q10">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a10">
+      ما هي التقنيات التي تستخدمونها في التطوير؟
+    </button>
+  </h2>
+  <div id="a10" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+    <div class="accordion-body">
+      نستخدم تقنيات حديثة ومعتمدة عالميًا لضمان جودة الأداء وقابلية التوسع، مع اختيار الأدوات المناسبة لكل مشروع.
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+                <h2 class="accordion-header" id="q11">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a11" >
+                   كيف يمكن التواصل مع مركز بصمة للتقنية والبرمجة؟
+                  </button>
+                </h2>
+                <div id="a11" class="accordion-collapse collapse" data-bs-parent="#faqAcc" >
+                  <div class="accordion-body">
+يمكن زيارة المركز الكائن محله بمدينة القامشلي - تقاطع شارع الوحدة مع شارع الرئيس ، او عن طريق الجوال أو الإيميل.                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="section" style="background: linear-gradient(180deg, #fff, #eef7f2)" >
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-5">
+            <h2 class="sec-title mb-3">تواصل معنا</h2>
+            <p class="text-secondary">
+              أخبرنا عن فكرتك أو مشروعك وسنعود إليك خلال 24 ساعة.
+            </p>
+            <div class="d-flex flex-column gap-2 mt-3 text-secondary">
+              <div>البريد: hello@example.com</div>
+              <div>الهاتف: +90 000 000 0000</div>
+              <div>العنوان: القامشلي – سوريا</div>
+            </div>
+            <iframe
+              width="250"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.5448141052175!2d41.22942232105323!3d37.05354594320108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400a0f7f17565597%3A0xc42c93e332ee805!2zMzYzRytDODTYjCDYp9mE2YLYp9mF2LTZhNmK2Iwg2LPZiNix2YrYpw!5e0!3m2!1sar!2snl!4v1754820361760!5m2!1sar!2snl"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="price" onsubmit="event.preventDefault(); this.reset(); alert('تم إرسال رسالتك بنجاح!');" >
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">الاسم</label
+                  ><input type="text" class="form-control" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">البريد</label
+                  ><input type="email" class="form-control" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">الموضوع</label
+                  ><input type="text" class="form-control" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">الرسالة</label
+                  ><textarea rows="5" class="form-control" required></textarea>
+                </div>
+                <div class="col-12 d-flex gap-2 align-items-center">
+                  <input type="checkbox" class="form-check-input" id="gdpr" required /><label class="form-check-label" for="gdpr"
+                    >أوافق على سياسة الخصوصية</label
+                  >
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-brand btn-lg w-100">إرسال</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4">
+      <div
+        class="container d-flex flex-wrap gap-3 align-items-center justify-content-between"
+      >
+        <div class="d-flex align-items-center gap-2">
+          <!-- <span class="brand-badge" style="width:28px;height:28px"></span> -->
+          <img src="img/logo3.png" alt="" width="30px" srcset="" />
+          <span> © 2025 Basma</span>
+        </div>
+        <div class="d-flex gap-3">
+          <a href="#">سياسة الخصوصية</a><a href="#">الشروط</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // ظل بسيط للهيدر عند التمرير
+      const nav = document.querySelector(".navbar");
+      const onScroll = () =>
+        nav.classList.toggle("scrolled", window.scrollY > 10);
+      onScroll();
+      window.addEventListener("scroll", onScroll);
+    </script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
