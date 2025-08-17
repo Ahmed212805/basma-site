@@ -11,7 +11,13 @@
   *{box-sizing:border-box}
   body{font-family:"Cairo", system-ui, -apple-system, Segoe UI, Roboto, Arial; color:#182521; background:#f6f7f8}
   a{text-decoration:none}
-
+/* الموبايل */
+@media screen and (max-width: 481px) {
+  /* body {
+    width: 481px;
+  } */
+  
+}
   /* ===== NAVBAR ===== */
   .navbar{background:var(--bg); transition: box-shadow .2s ease}
   .navbar.scrolled{ box-shadow: 0 8px 24px rgba(0,0,0,.25) }
@@ -58,7 +64,10 @@
   .timeline::before{content:"";position:absolute;inset:0 50% 0 auto;width:2px;background:#e9eeec}
   .timeline .item{position:relative;padding-inline-start:32px}
   .timeline .item::before{content:"";position:absolute;right:calc(50% - 6px);top:.4rem;width:12px;height:12px;background:var(--brand);border-radius:50%}
-
+  @media screen and (max-width: 481px) {
+      .timeline::before{content:"";position:absolute;inset:0 96% 0 auto;}
+      .timeline .item::before{content:"";position:absolute;right:calc(96% - 6px);top:.4rem;}
+  }
   /* ===== PRICING ===== */
   .price{border:1px solid #e9eeec;background:#fff;border-radius:18px;padding:28px}
   .price .h1{font-weight:800}
@@ -92,4 +101,21 @@
     font-size: 18px;
     color: #666;
   }
-  
+  /* الشاشات الكبيرة (أجهزة الكمبيوتر) */
+@media screen and (min-width: 1025px) {
+  .container {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* التابلت */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+
