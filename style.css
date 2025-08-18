@@ -102,7 +102,7 @@
     color: #666;
   }
   /* الشاشات الكبيرة (أجهزة الكمبيوتر) */
-@media screen and (min-width: 1025px) {
+/* @media screen and (min-width: 1025px) {
   .container {
     padding: 40px;
     display: flex;
@@ -116,6 +116,6 @@
     padding: 20px;
     text-align: center;
   }
-}
+} 
 
 
